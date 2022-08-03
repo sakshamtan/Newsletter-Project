@@ -69,10 +69,3 @@ app.post("/", function(req, res){
 app.listen(process.env.PORT || 3000, function(){ // heroku will dynamically allocate port but for local testing it is 3000
     console.log("Server running at port 3000");
 });
-
-// api key
-// 59e10a309ea45bd2d92e29ddf9c5418b-us8
-// audience id 
-// a9dc0c1ebe
-// url
-// "https://usX.api.mailchimp.com/3.0/lists"
